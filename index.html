@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movie.es</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <figure id="logo">
+            <a href="">
+                <img src="img/popcorn.png" alt="Logo" srcset="img/popcorn.png 1x, img/popcorn-x2.png 2x">
+                <h1>Movi.es</h1>
+            </a>
+        </figure>
+        <div class="input-contenedor" id="input-contenedor">
+            <i class="fas fa-long-arrow-alt-left" id="back"></i>
+            <input type="search" name="" id="search-home" placeholder="Busca tu pelim, actor, actriz odirector favorito">
+        </div>
+        <div class="usuario" id="profile">
+            <h4>Nemo Rodriguez</h4>
+            <i class="fas fa-search" id="search"></i>
+            <img src="img/nemo.png" alt="Profile images" srcset="img/nemo.png 1x, img/nemo-x2.png 2x">
+            <span>▾</span>
+        </div>
+    </header>
+    <nav id="menu">
+        <ul>
+            <li><a href="">
+                <i class="fas fa-home"></i><h5>Home</h5>
+            </a></li>
+            <li><a href="">
+                <i class="fab fa-hotjar"></i><h5>Trending</h5>
+            </a></li>
+            <li><a href="">
+                <i class="fas fa-heart"></i><h5>Mas Likes</h5>
+            </a></li>
+            <li><a href="">
+                    <i class="fas fa-cog"></i><h5>Ajustes</h5>
+            </a></li>
+        </ul>
+    </nav>
+    <section class="movi-container">
+        <div class="burger-menu" id="burger-menu">
+            <span class="bars" id="icon"></span>
+        </div>
+        <h2>Ahora en Cines</h2>
+        <article>
+            <a href="#">
+                <img src="img/pets.jpg" alt="Pelicula" srcset="img/pets.jpg 1x, img/pets-x2.jpg 2x">
+                <div class="info-m">
+                    <h3>The Secret Life of Pets</h3>
+                    <p>The quiet life of a terrier named Max is upended when his owner takes in Duke, a stray whom Max instantly dislikes.</p>
+                </div>
+            </a>
+        </article>
+        <article>
+            <a href="#">
+                <img src="img/pets.jpg" alt="Pelicula" srcset="img/pets.jpg 1x, img/pets-x2.jpg 2x">
+                <div class="info-m">
+                    <h3>The Secret Life of Pets</h3>
+                    <p>The quiet life of a terrier named Max is upended when his owner takes in Duke, a stray whom Max instantly dislikes.</p>
+                </div>
+            </a>
+        </article>
+        <article>
+            <a href="#">
+                <img src="img/pets.jpg" alt="Pelicula" srcset="img/pets.jpg 1x, img/pets-x2.jpg 2x">
+                <div class="info-m">
+                    <h3>The Secret Life of Pets</h3>
+                    <p>The quiet life of a terrier named Max is upended when his owner takes in Duke, a stray whom Max instantly dislikes.</p>
+                </div>
+            </a>
+        </article>
+        <h2>Aclamadas por la critica</h2>
+        <article>
+            <a href="#">
+                <img src="img/pets.jpg" alt="Pelicula" srcset="img/pets.jpg 1x, img/pets-x2.jpg 2x">
+                <div class="info-m">
+                    <h3>The Secret Life of Pets</h3>
+                    <p>The quiet life of a terrier named Max is upended when his owner takes in Duke, a stray whom Max instantly dislikes.</p>
+                </div>
+            </a>
+        </article>
+        <article>
+            <a href="#">
+                <img src="img/pets.jpg" alt="Pelicula" srcset="img/pets.jpg 1x, img/pets-x2.jpg 2x">
+                <div class="info-m">
+                    <h3>The Secret Life of Pets</h3>
+                    <p>The quiet life of a terrier named Max is upended when his owner takes in Duke, a stray whom Max instantly dislikes.</p>
+                </div>
+            </a>
+        </article>
+        <article>
+            <a href="#">
+                <img src="img/pets.jpg" alt="Pelicula" srcset="img/pets.jpg 1x, img/pets-x2.jpg 2x">
+                <div class="info-m">
+                    <h3>The Secret Life of Pets</h3>
+                    <p>The quiet life of a terrier named Max is upended when his owner takes in Duke, a stray whom Max instantly dislikes.</p>
+                </div>
+            </a>
+        </article>
+        <h2>No te debes perder</h2>
+        <article>
+            <a href="#">
+                <img src="img/pets.jpg" alt="Pelicula" srcset="img/pets.jpg 1x, img/pets-x2.jpg 2x">
+                <div class="info-m">
+                    <h3>The Secret Life of Pets</h3>
+                    <p>The quiet life of a terrier named Max is upended when his owner takes in Duke, a stray whom Max instantly dislikes.</p>
+                </div>
+            </a>
+        </article>
+        <article>
+            <a href="#">
+                <img src="img/pets.jpg" alt="Pelicula" srcset="img/pets.jpg 1x, img/pets-x2.jpg 2x">
+                <div class="info-m">
+                    <h3>The Secret Life of Pets</h3>
+                    <p>The quiet life of a terrier named Max is upended when his owner takes in Duke, a stray whom Max instantly dislikes.</p>
+                </div>
+            </a>
+        </article>
+        <article>
+            <a href="#">
+                <img src="img/pets.jpg" alt="Pelicula" srcset="img/pets.jpg 1x, img/pets-x2.jpg 2x">
+                <div class="info-m">
+                    <h3>The Secret Life of Pets</h3>
+                    <p>The quiet life of a terrier named Max is upended when his owner takes in Duke, a stray whom Max instantly dislikes.</p>
+                </div>
+            </a>
+        </article>
+    </section>
+    <script type="text/javascript">
+    // Menu Responsive
+    const $menu = document.getElementById("menu");
+    const $burgerMenu = document.getElementById("burger-menu");
+    const $icon = document.getElementById("icon");
+
+    $burgerMenu.addEventListener("click", menu);
+
+    function menu(){
+        $menu.classList.toggle("active");
+        $icon.classList.toggle("hide");
+    }
+
+    // Buscador
+    const $search = document.getElementById("search");
+    const $logo = document.getElementById("logo");
+    const $profile = document.getElementById("profile");
+    const $inputCon = document.getElementById("input-contenedor");
+    const $back = document.getElementById("back");
+
+    $search.addEventListener("click", buscador);
+    $back.addEventListener("click", buscador);
+
+    function buscador(){
+        $logo.classList.toggle("lupa");
+        $profile.classList.toggle("lupa");
+        $inputCon.classList.toggle("show");
+    }
+
+    window.addEventListener("resize", tam)
+
+    function tam(){
+    let width = window.innerWidth;
+    if (width > 640) {
+        $logo.classList.remove("lupa");
+        $profile.classList.remove("lupa");
+        $inputCon.classList.remove("show");
+    }
+    }
+    </script>
+    <link rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+</body>
+</html>
